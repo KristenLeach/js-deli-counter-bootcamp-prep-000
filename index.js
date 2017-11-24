@@ -1,5 +1,5 @@
 var katzDeli = [];
 
-function takeANumber(katzDeliLine){
-  
+function takeANumber(katzDeliLine, newName){
+  return`Welcome ${newName}. You are ${katzDeliLine.length} in line.`
 }
