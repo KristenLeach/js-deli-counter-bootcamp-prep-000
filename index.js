@@ -8,7 +8,7 @@ function takeANumber(katzDeliLine, newName){
 function nowServing(katzDeliLine){
   if (katzDeliLine.length > 0){
   var firstPerson = katzDeliLine.splice(0,1);
-  return firstPerson;
+  return `Currently serving ${firstPerson}.`;
   }
   else {
     return "There is nobody waiting to be served!";
